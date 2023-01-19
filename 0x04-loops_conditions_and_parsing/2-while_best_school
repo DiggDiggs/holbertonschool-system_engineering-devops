@@ -2,4 +2,4 @@
 #Creating a script that uses a for loop
 x=1
 while [ $x -le 10 ]
-	echo (( x + 1 ))
+	echo "Best School" (( x + 1 ))
