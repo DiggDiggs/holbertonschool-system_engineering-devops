@@ -11,6 +11,6 @@ for ((i=1;i<=100;i++)); do
     then
 	echo Buzz
     else
-	echo "$i"
+	echo $i
     fi;
 done
