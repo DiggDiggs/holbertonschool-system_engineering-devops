@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Creating a script that uses a nested loop
+for i in *
+do
+    echo "$i" | cut -f 2- -d '-'
+done
